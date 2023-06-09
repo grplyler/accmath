@@ -1,9 +1,17 @@
-# accmath (Accelerated Math)
-An Experimental Math Library with Accelerated Backends for Apple M1/M2 Processors.
+# Raylib CMake Starter for C++
 
-This is mainly an experimental/education library playing with various accelerated math operations supported by Apple hardware.
-I built this as a math abstration library to use in my realtime game physics engine which will be open-sourced when ready for beta.
+This is a starter project for using [Raylib](https://www.raylib.com/) with C++ and CMake.
+**WARNING: Only tested on MacOS**
 
-Currently I am only supporting MacOS and Apple M1/M2 CPUs and GPUs, but may suppport other hardware and platforms in the future.
 
-**WARNING: This is a work in progress**
+## Getting Started
+
+1. Clone this repository
+2. Initialize the submodules: `git submodule update --init --recursive`
+3. Build `./b`
+5. Run `./r`
+
+## TODO
+
+- [ ] Support for ANGLE
+- [ ] Support more Platforms

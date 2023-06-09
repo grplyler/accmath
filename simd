@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Builds and Runs the SIMD backend
+
+rm -rf build
+cmake -B build -DBACKEND_SIMD=ON
+cmake --build build
+./math-library
